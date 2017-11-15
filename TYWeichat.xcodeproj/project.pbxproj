@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003B374E1FAD771C0012D147 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B374D1FAD771C0012D147 /* Reveal.framework */; };
+		F44678981DB702D700F1EF3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678971DB702D700F1EF3E /* main.m */; };
+		F446789B1DB702D700F1EF3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F446789A1DB702D700F1EF3E /* AppDelegate.m */; };
+		F446789E1DB702D700F1EF3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F446789D1DB702D700F1EF3E /* ViewController.m */; };
+		F44678A11DB702D700F1EF3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F446789F1DB702D700F1EF3E /* Main.storyboard */; };
+		F44678A31DB702D700F1EF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44678A21DB702D700F1EF3E /* Assets.xcassets */; };
+		F44678A61DB702D700F1EF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44678A41DB702D700F1EF3E /* LaunchScreen.storyboard */; };
+		F44678B11DB702D700F1EF3E /* TYWeichatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678B01DB702D700F1EF3E /* TYWeichatTests.m */; };
+		F44678BC1DB702D700F1EF3E /* TYWeichatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678BB1DB702D700F1EF3E /* TYWeichatUITests.m */; };
+		F446791E1DB703A900F1EF3E /* TYPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678D01DB703A800F1EF3E /* TYPresentTransition.m */; };
+		F446791F1DB703A900F1EF3E /* TYVideoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678D21DB703A800F1EF3E /* TYVideoConfig.m */; };
+		F44679201DB703A900F1EF3E /* UIAlertView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678D41DB703A800F1EF3E /* UIAlertView+Extention.m */; };
+		F44679211DB703A900F1EF3E /* ZXObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678D61DB703A800F1EF3E /* ZXObject.m */; };
+		F44679221DB703A900F1EF3E /* PKShortVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678D91DB703A800F1EF3E /* PKShortVideoRecorder.m */; };
+		F44679231DB703A900F1EF3E /* PKShortVideoSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678DB1DB703A800F1EF3E /* PKShortVideoSession.m */; };
+		F44679241DB703A900F1EF3E /* TYFullScreenPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678DD1DB703A800F1EF3E /* TYFullScreenPlayerViewController.m */; };
+		F44679251DB703A900F1EF3E /* TYLittleVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678DF1DB703A800F1EF3E /* TYLittleVideoViewController.m */; };
+		F44679261DB703A900F1EF3E /* TYPostVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678E11DB703A800F1EF3E /* TYPostVideoViewController.m */; };
+		F44679271DB703A900F1EF3E /* TYVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678E31DB703A800F1EF3E /* TYVideoListViewController.m */; };
+		F44679281DB703A900F1EF3E /* TYVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678E61DB703A800F1EF3E /* TYVideoModel.m */; };
+		F44679291DB703A900F1EF3E /* TYEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678E91DB703A800F1EF3E /* TYEmotionTool.m */; };
+		F446792A1DB703A900F1EF3E /* TYVideoSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678EB1DB703A800F1EF3E /* TYVideoSaveTool.m */; };
+		F446792B1DB703A900F1EF3E /* WYVideoCompressTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678ED1DB703A800F1EF3E /* WYVideoCompressTools.m */; };
+		F44679331DB703A900F1EF3E /* TYEmotionGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44679011DB703A800F1EF3E /* TYEmotionGridView.m */; };
+		F44679341DB703A900F1EF3E /* TYEmotionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44679031DB703A800F1EF3E /* TYEmotionListView.m */; };
+		F44679351DB703A900F1EF3E /* TYEmotionPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44679051DB703A800F1EF3E /* TYEmotionPopView.m */; };
+		F44679361DB703A900F1EF3E /* TYEmotionPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F44679061DB703A900F1EF3E /* TYEmotionPopView.xib */; };
+		F44679371DB703A900F1EF3E /* TYEmotionToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F44679081DB703A900F1EF3E /* TYEmotionToolbar.m */; };
+		F44679381DB703A900F1EF3E /* TYEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F446790A1DB703A900F1EF3E /* TYEmotionView.m */; };
+		F44679391DB703A900F1EF3E /* TYKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F446790C1DB703A900F1EF3E /* TYKeyboardView.m */; };
+		F446793A1DB703A900F1EF3E /* TYAddNewVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F446790E1DB703A900F1EF3E /* TYAddNewVideoCell.m */; };
+		F446793B1DB703A900F1EF3E /* TYComposeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F44679101DB703A900F1EF3E /* TYComposeToolbar.m */; };
+		F446793C1DB703A900F1EF3E /* TYEyeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44679121DB703A900F1EF3E /* TYEyeView.m */; };
+		F446793D1DB703A900F1EF3E /* TYEyeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F44679131DB703A900F1EF3E /* TYEyeView.xib */; };
+		F446793E1DB703A900F1EF3E /* TYFullScreenPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44679151DB703A900F1EF3E /* TYFullScreenPlayerView.m */; };
+		F446793F1DB703A900F1EF3E /* TYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44679171DB703A900F1EF3E /* TYPlayerView.m */; };
+		F44679401DB703A900F1EF3E /* TYTakeVideoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F44679191DB703A900F1EF3E /* TYTakeVideoButton.m */; };
+		F44679411DB703A900F1EF3E /* TYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F446791B1DB703A900F1EF3E /* TYTextView.m */; };
+		F44679421DB703A900F1EF3E /* TYVideoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F446791D1DB703A900F1EF3E /* TYVideoListCell.m */; };
+		F44679461DB7066100F1EF3E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F44679451DB7066100F1EF3E /* UIView+Extension.m */; };
+		F446794A1DB7074A00F1EF3E /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F44679491DB7074A00F1EF3E /* UIImage+Extension.m */; };
+		F446794D1DB707B100F1EF3E /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F446794C1DB707B100F1EF3E /* UIColor+Extension.m */; };
+		F44679501DB7099300F1EF3E /* ALActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F446794F1DB7099300F1EF3E /* ALActionSheetView.m */; };
+		F446795D1DB70F2900F1EF3E /* customEmoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = F446795B1DB70F2900F1EF3E /* customEmoji.plist */; };
+		F446795E1DB70F2900F1EF3E /* defaultEmoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = F446795C1DB70F2900F1EF3E /* defaultEmoji.plist */; };
+		F4AF3B531DE6E3B300A413A1 /* TYPlayOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF3B521DE6E3B300A413A1 /* TYPlayOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F44678AD1DB702D700F1EF3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F446788B1DB702D700F1EF3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44678921DB702D700F1EF3E;
+			remoteInfo = TYWeichat;
+		};
+		F44678B81DB702D700F1EF3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F446788B1DB702D700F1EF3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44678921DB702D700F1EF3E;
+			remoteInfo = TYWeichat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003B374D1FAD771C0012D147 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		F44678931DB702D700F1EF3E /* TYWeichat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYWeichat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44678971DB702D700F1EF3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F44678991DB702D700F1EF3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F446789A1DB702D700F1EF3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F446789C1DB702D700F1EF3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F446789D1DB702D700F1EF3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F44678A01DB702D700F1EF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F44678A21DB702D700F1EF3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44678A51DB702D700F1EF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F44678A71DB702D700F1EF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44678AC1DB702D700F1EF3E /* TYWeichatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYWeichatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44678B01DB702D700F1EF3E /* TYWeichatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWeichatTests.m; sourceTree = "<group>"; };
+		F44678B21DB702D700F1EF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44678B71DB702D700F1EF3E /* TYWeichatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYWeichatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44678BB1DB702D700F1EF3E /* TYWeichatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWeichatUITests.m; sourceTree = "<group>"; };
+		F44678BD1DB702D700F1EF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44678CF1DB703A800F1EF3E /* TYPresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPresentTransition.h; sourceTree = "<group>"; };
+		F44678D01DB703A800F1EF3E /* TYPresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPresentTransition.m; sourceTree = "<group>"; };
+		F44678D11DB703A800F1EF3E /* TYVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVideoConfig.h; sourceTree = "<group>"; };
+		F44678D21DB703A800F1EF3E /* TYVideoConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVideoConfig.m; sourceTree = "<group>"; };
+		F44678D31DB703A800F1EF3E /* UIAlertView+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Extention.h"; sourceTree = "<group>"; };
+		F44678D41DB703A800F1EF3E /* UIAlertView+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Extention.m"; sourceTree = "<group>"; };
+		F44678D51DB703A800F1EF3E /* ZXObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXObject.h; sourceTree = "<group>"; };
+		F44678D61DB703A800F1EF3E /* ZXObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXObject.m; sourceTree = "<group>"; };
+		F44678D81DB703A800F1EF3E /* PKShortVideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKShortVideoRecorder.h; sourceTree = "<group>"; };
+		F44678D91DB703A800F1EF3E /* PKShortVideoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKShortVideoRecorder.m; sourceTree = "<group>"; };
+		F44678DA1DB703A800F1EF3E /* PKShortVideoSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKShortVideoSession.h; sourceTree = "<group>"; };
+		F44678DB1DB703A800F1EF3E /* PKShortVideoSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKShortVideoSession.m; sourceTree = "<group>"; };
+		F44678DC1DB703A800F1EF3E /* TYFullScreenPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYFullScreenPlayerViewController.h; sourceTree = "<group>"; };
+		F44678DD1DB703A800F1EF3E /* TYFullScreenPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYFullScreenPlayerViewController.m; sourceTree = "<group>"; };
+		F44678DE1DB703A800F1EF3E /* TYLittleVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLittleVideoViewController.h; sourceTree = "<group>"; };
+		F44678DF1DB703A800F1EF3E /* TYLittleVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLittleVideoViewController.m; sourceTree = "<group>"; };
+		F44678E01DB703A800F1EF3E /* TYPostVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPostVideoViewController.h; sourceTree = "<group>"; };
+		F44678E11DB703A800F1EF3E /* TYPostVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPostVideoViewController.m; sourceTree = "<group>"; };
+		F44678E21DB703A800F1EF3E /* TYVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVideoListViewController.h; sourceTree = "<group>"; };
+		F44678E31DB703A800F1EF3E /* TYVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVideoListViewController.m; sourceTree = "<group>"; };
+		F44678E51DB703A800F1EF3E /* TYVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVideoModel.h; sourceTree = "<group>"; };
+		F44678E61DB703A800F1EF3E /* TYVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVideoModel.m; sourceTree = "<group>"; };
+		F44678E81DB703A800F1EF3E /* TYEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYEmotionTool.h; sourceTree = "<group>"; };
+		F44678E91DB703A800F1EF3E /* TYEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYEmotionTool.m; sourceTree = "<group>"; };
+		F44678EA1DB703A800F1EF3E /* TYVideoSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVideoSaveTool.h; sourceTree = "<group>"; };
+		F44678EB1DB703A800F1EF3E /* TYVideoSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVideoSaveTool.m; sourceTree = "<group>"; };
+		F44678EC1DB703A800F1EF3E /* WYVideoCompressTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYVideoCompressTools.h; sourceTree = "<group>"; };
+		F44678ED1DB703A800F1EF3E /* WYVideoCompressTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYVideoCompressTools.m; sourceTree = "<group>"; };
+		F44679001DB703A800F1EF3E /* TYEmotionGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYEmotionGridView.h; sourceTree = "<group>"; };
+		F44679011DB703A800F1EF3E /* TYEmotionGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYEmotionGridView.m; sourceTree = "<group>"; };
+		F44679021DB703A800F1EF3E /* TYEmotionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYEmotionListView.h; sourceTree = "<group>"; };
+		F44679031DB703A800F1EF3E /* TYEmotionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYEmotionListView.m; sourceTree = "<group>"; };
+		F44679041DB703A800F1EF3E /* TYEmotionPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYEmotionPopView.h; sourceTree = "<group>"; };
+		F44679051DB703A800F1EF3E /* TYEmotionPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYEmotionPopView.m; sourceTree = "<group>"; };
+		F44679061DB703A900F1EF3E /* TYEmotionPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYEmotionPopView.xib; sourceTree = "<group>"; };
+		F44679071DB703A900F1EF3E /* TYEmotionToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYEmotionToolbar.h; sourceTree = "<group>"; };
+		F44679081DB703A900F1EF3E /* TYEmotionToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYEmotionToolbar.m; sourceTree = "<group>"; };
+		F44679091DB703A900F1EF3E /* TYEmotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYEmotionView.h; sourceTree = "<group>"; };
+		F446790A1DB703A900F1EF3E /* TYEmotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYEmotionView.m; sourceTree = "<group>"; };
+		F446790B1DB703A900F1EF3E /* TYKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYKeyboardView.h; sourceTree = "<group>"; };
+		F446790C1DB703A900F1EF3E /* TYKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYKeyboardView.m; sourceTree = "<group>"; };
+		F446790D1DB703A900F1EF3E /* TYAddNewVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAddNewVideoCell.h; sourceTree = "<group>"; };
+		F446790E1DB703A900F1EF3E /* TYAddNewVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAddNewVideoCell.m; sourceTree = "<group>"; };
+		F446790F1DB703A900F1EF3E /* TYComposeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYComposeToolbar.h; sourceTree = "<group>"; };
+		F44679101DB703A900F1EF3E /* TYComposeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYComposeToolbar.m; sourceTree = "<group>"; };
+		F44679111DB703A900F1EF3E /* TYEyeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYEyeView.h; sourceTree = "<group>"; };
+		F44679121DB703A900F1EF3E /* TYEyeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYEyeView.m; sourceTree = "<group>"; };
+		F44679131DB703A900F1EF3E /* TYEyeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYEyeView.xib; sourceTree = "<group>"; };
+		F44679141DB703A900F1EF3E /* TYFullScreenPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYFullScreenPlayerView.h; sourceTree = "<group>"; };
+		F44679151DB703A900F1EF3E /* TYFullScreenPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYFullScreenPlayerView.m; sourceTree = "<group>"; };
+		F44679161DB703A900F1EF3E /* TYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPlayerView.h; sourceTree = "<group>"; };
+		F44679171DB703A900F1EF3E /* TYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPlayerView.m; sourceTree = "<group>"; };
+		F44679181DB703A900F1EF3E /* TYTakeVideoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTakeVideoButton.h; sourceTree = "<group>"; };
+		F44679191DB703A900F1EF3E /* TYTakeVideoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTakeVideoButton.m; sourceTree = "<group>"; };
+		F446791A1DB703A900F1EF3E /* TYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextView.h; sourceTree = "<group>"; };
+		F446791B1DB703A900F1EF3E /* TYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextView.m; sourceTree = "<group>"; };
+		F446791C1DB703A900F1EF3E /* TYVideoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVideoListCell.h; sourceTree = "<group>"; };
+		F446791D1DB703A900F1EF3E /* TYVideoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVideoListCell.m; sourceTree = "<group>"; };
+		F44679441DB7066100F1EF3E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F44679451DB7066100F1EF3E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F44679471DB7068500F1EF3E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F44679481DB7074A00F1EF3E /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		F44679491DB7074A00F1EF3E /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		F446794B1DB707B100F1EF3E /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		F446794C1DB707B100F1EF3E /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		F446794E1DB7099300F1EF3E /* ALActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALActionSheetView.h; sourceTree = "<group>"; };
+		F446794F1DB7099300F1EF3E /* ALActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALActionSheetView.m; sourceTree = "<group>"; };
+		F446795B1DB70F2900F1EF3E /* customEmoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = customEmoji.plist; sourceTree = "<group>"; };
+		F446795C1DB70F2900F1EF3E /* defaultEmoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = defaultEmoji.plist; sourceTree = "<group>"; };
+		F4AF3B511DE6E3B300A413A1 /* TYPlayOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPlayOperation.h; sourceTree = "<group>"; };
+		F4AF3B521DE6E3B300A413A1 /* TYPlayOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPlayOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44678901DB702D700F1EF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003B374E1FAD771C0012D147 /* Reveal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44678A91DB702D700F1EF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44678B41DB702D700F1EF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F446788A1DB702D700F1EF3E = {
+			isa = PBXGroup;
+			children = (
+				003B374D1FAD771C0012D147 /* Reveal.framework */,
+				F44679471DB7068500F1EF3E /* PrefixHeader.pch */,
+				F446795B1DB70F2900F1EF3E /* customEmoji.plist */,
+				F446795C1DB70F2900F1EF3E /* defaultEmoji.plist */,
+				F44678951DB702D700F1EF3E /* TYWeichat */,
+				F44678AF1DB702D700F1EF3E /* TYWeichatTests */,
+				F44678BA1DB702D700F1EF3E /* TYWeichatUITests */,
+				F44678941DB702D700F1EF3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44678941DB702D700F1EF3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44678931DB702D700F1EF3E /* TYWeichat.app */,
+				F44678AC1DB702D700F1EF3E /* TYWeichatTests.xctest */,
+				F44678B71DB702D700F1EF3E /* TYWeichatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44678951DB702D700F1EF3E /* TYWeichat */ = {
+			isa = PBXGroup;
+			children = (
+				F44679431DB7066100F1EF3E /* Category */,
+				F44678CC1DB703A800F1EF3E /* LittleVideo */,
+				F44678991DB702D700F1EF3E /* AppDelegate.h */,
+				F446789A1DB702D700F1EF3E /* AppDelegate.m */,
+				F446789C1DB702D700F1EF3E /* ViewController.h */,
+				F446789D1DB702D700F1EF3E /* ViewController.m */,
+				F446789F1DB702D700F1EF3E /* Main.storyboard */,
+				F44678A21DB702D700F1EF3E /* Assets.xcassets */,
+				F44678A41DB702D700F1EF3E /* LaunchScreen.storyboard */,
+				F44678A71DB702D700F1EF3E /* Info.plist */,
+				F44678961DB702D700F1EF3E /* Supporting Files */,
+			);
+			path = TYWeichat;
+			sourceTree = "<group>";
+		};
+		F44678961DB702D700F1EF3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F44678971DB702D700F1EF3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F44678AF1DB702D700F1EF3E /* TYWeichatTests */ = {
+			isa = PBXGroup;
+			children = (
+				F44678B01DB702D700F1EF3E /* TYWeichatTests.m */,
+				F44678B21DB702D700F1EF3E /* Info.plist */,
+			);
+			path = TYWeichatTests;
+			sourceTree = "<group>";
+		};
+		F44678BA1DB702D700F1EF3E /* TYWeichatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F44678BB1DB702D700F1EF3E /* TYWeichatUITests.m */,
+				F44678BD1DB702D700F1EF3E /* Info.plist */,
+			);
+			path = TYWeichatUITests;
+			sourceTree = "<group>";
+		};
+		F44678CC1DB703A800F1EF3E /* LittleVideo */ = {
+			isa = PBXGroup;
+			children = (
+				F44678CD1DB703A800F1EF3E /* component */,
+				F44678D71DB703A800F1EF3E /* Controller */,
+				F44678E41DB703A800F1EF3E /* Model */,
+				F44678E71DB703A800F1EF3E /* Tool */,
+				F44678EE1DB703A800F1EF3E /* View */,
+			);
+			path = LittleVideo;
+			sourceTree = "<group>";
+		};
+		F44678CD1DB703A800F1EF3E /* component */ = {
+			isa = PBXGroup;
+			children = (
+				F44678CE1DB703A800F1EF3E /* TransitionAnimation */,
+				F44678D11DB703A800F1EF3E /* TYVideoConfig.h */,
+				F44678D21DB703A800F1EF3E /* TYVideoConfig.m */,
+				F44678D31DB703A800F1EF3E /* UIAlertView+Extention.h */,
+				F44678D41DB703A800F1EF3E /* UIAlertView+Extention.m */,
+				F44678D51DB703A800F1EF3E /* ZXObject.h */,
+				F44678D61DB703A800F1EF3E /* ZXObject.m */,
+				F446794E1DB7099300F1EF3E /* ALActionSheetView.h */,
+				F446794F1DB7099300F1EF3E /* ALActionSheetView.m */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		F44678CE1DB703A800F1EF3E /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F44678CF1DB703A800F1EF3E /* TYPresentTransition.h */,
+				F44678D01DB703A800F1EF3E /* TYPresentTransition.m */,
+			);
+			path = TransitionAnimation;
+			sourceTree = "<group>";
+		};
+		F44678D71DB703A800F1EF3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F44678D81DB703A800F1EF3E /* PKShortVideoRecorder.h */,
+				F44678D91DB703A800F1EF3E /* PKShortVideoRecorder.m */,
+				F44678DA1DB703A800F1EF3E /* PKShortVideoSession.h */,
+				F44678DB1DB703A800F1EF3E /* PKShortVideoSession.m */,
+				F44678DC1DB703A800F1EF3E /* TYFullScreenPlayerViewController.h */,
+				F44678DD1DB703A800F1EF3E /* TYFullScreenPlayerViewController.m */,
+				F44678DE1DB703A800F1EF3E /* TYLittleVideoViewController.h */,
+				F44678DF1DB703A800F1EF3E /* TYLittleVideoViewController.m */,
+				F44678E01DB703A800F1EF3E /* TYPostVideoViewController.h */,
+				F44678E11DB703A800F1EF3E /* TYPostVideoViewController.m */,
+				F44678E21DB703A800F1EF3E /* TYVideoListViewController.h */,
+				F44678E31DB703A800F1EF3E /* TYVideoListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F44678E41DB703A800F1EF3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F44678E51DB703A800F1EF3E /* TYVideoModel.h */,
+				F44678E61DB703A800F1EF3E /* TYVideoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F44678E71DB703A800F1EF3E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F44678E81DB703A800F1EF3E /* TYEmotionTool.h */,
+				F44678E91DB703A800F1EF3E /* TYEmotionTool.m */,
+				F44678EA1DB703A800F1EF3E /* TYVideoSaveTool.h */,
+				F44678EB1DB703A800F1EF3E /* TYVideoSaveTool.m */,
+				F44678EC1DB703A800F1EF3E /* WYVideoCompressTools.h */,
+				F44678ED1DB703A800F1EF3E /* WYVideoCompressTools.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F44678EE1DB703A800F1EF3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F44678FF1DB703A800F1EF3E /* EmotionKeyboard */,
+				F446790D1DB703A900F1EF3E /* TYAddNewVideoCell.h */,
+				F446790E1DB703A900F1EF3E /* TYAddNewVideoCell.m */,
+				F446790F1DB703A900F1EF3E /* TYComposeToolbar.h */,
+				F44679101DB703A900F1EF3E /* TYComposeToolbar.m */,
+				F44679111DB703A900F1EF3E /* TYEyeView.h */,
+				F44679121DB703A900F1EF3E /* TYEyeView.m */,
+				F44679131DB703A900F1EF3E /* TYEyeView.xib */,
+				F44679141DB703A900F1EF3E /* TYFullScreenPlayerView.h */,
+				F44679151DB703A900F1EF3E /* TYFullScreenPlayerView.m */,
+				F44679161DB703A900F1EF3E /* TYPlayerView.h */,
+				F44679171DB703A900F1EF3E /* TYPlayerView.m */,
+				F4AF3B511DE6E3B300A413A1 /* TYPlayOperation.h */,
+				F4AF3B521DE6E3B300A413A1 /* TYPlayOperation.m */,
+				F44679181DB703A900F1EF3E /* TYTakeVideoButton.h */,
+				F44679191DB703A900F1EF3E /* TYTakeVideoButton.m */,
+				F446791A1DB703A900F1EF3E /* TYTextView.h */,
+				F446791B1DB703A900F1EF3E /* TYTextView.m */,
+				F446791C1DB703A900F1EF3E /* TYVideoListCell.h */,
+				F446791D1DB703A900F1EF3E /* TYVideoListCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F44678FF1DB703A800F1EF3E /* EmotionKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F44679001DB703A800F1EF3E /* TYEmotionGridView.h */,
+				F44679011DB703A800F1EF3E /* TYEmotionGridView.m */,
+				F44679021DB703A800F1EF3E /* TYEmotionListView.h */,
+				F44679031DB703A800F1EF3E /* TYEmotionListView.m */,
+				F44679041DB703A800F1EF3E /* TYEmotionPopView.h */,
+				F44679051DB703A800F1EF3E /* TYEmotionPopView.m */,
+				F44679061DB703A900F1EF3E /* TYEmotionPopView.xib */,
+				F44679071DB703A900F1EF3E /* TYEmotionToolbar.h */,
+				F44679081DB703A900F1EF3E /* TYEmotionToolbar.m */,
+				F44679091DB703A900F1EF3E /* TYEmotionView.h */,
+				F446790A1DB703A900F1EF3E /* TYEmotionView.m */,
+				F446790B1DB703A900F1EF3E /* TYKeyboardView.h */,
+				F446790C1DB703A900F1EF3E /* TYKeyboardView.m */,
+			);
+			path = EmotionKeyboard;
+			sourceTree = "<group>";
+		};
+		F44679431DB7066100F1EF3E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F44679441DB7066100F1EF3E /* UIView+Extension.h */,
+				F44679451DB7066100F1EF3E /* UIView+Extension.m */,
+				F446794B1DB707B100F1EF3E /* UIColor+Extension.h */,
+				F446794C1DB707B100F1EF3E /* UIColor+Extension.m */,
+				F44679481DB7074A00F1EF3E /* UIImage+Extension.h */,
+				F44679491DB7074A00F1EF3E /* UIImage+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44678921DB702D700F1EF3E /* TYWeichat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44678C01DB702D700F1EF3E /* Build configuration list for PBXNativeTarget "TYWeichat" */;
+			buildPhases = (
+				F446788F1DB702D700F1EF3E /* Sources */,
+				F44678901DB702D700F1EF3E /* Frameworks */,
+				F44678911DB702D700F1EF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYWeichat;
+			productName = TYWeichat;
+			productReference = F44678931DB702D700F1EF3E /* TYWeichat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44678AB1DB702D700F1EF3E /* TYWeichatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44678C31DB702D700F1EF3E /* Build configuration list for PBXNativeTarget "TYWeichatTests" */;
+			buildPhases = (
+				F44678A81DB702D700F1EF3E /* Sources */,
+				F44678A91DB702D700F1EF3E /* Frameworks */,
+				F44678AA1DB702D700F1EF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44678AE1DB702D700F1EF3E /* PBXTargetDependency */,
+			);
+			name = TYWeichatTests;
+			productName = TYWeichatTests;
+			productReference = F44678AC1DB702D700F1EF3E /* TYWeichatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F44678B61DB702D700F1EF3E /* TYWeichatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44678C61DB702D700F1EF3E /* Build configuration list for PBXNativeTarget "TYWeichatUITests" */;
+			buildPhases = (
+				F44678B31DB702D700F1EF3E /* Sources */,
+				F44678B41DB702D700F1EF3E /* Frameworks */,
+				F44678B51DB702D700F1EF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44678B91DB702D700F1EF3E /* PBXTargetDependency */,
+			);
+			name = TYWeichatUITests;
+			productName = TYWeichatUITests;
+			productReference = F44678B71DB702D700F1EF3E /* TYWeichatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F446788B1DB702D700F1EF3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lijun;
+				TargetAttributes = {
+					F44678921DB702D700F1EF3E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4FPKBH4664;
+						ProvisioningStyle = Automatic;
+					};
+					F44678AB1DB702D700F1EF3E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F44678921DB702D700F1EF3E;
+					};
+					F44678B61DB702D700F1EF3E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F44678921DB702D700F1EF3E;
+					};
+				};
+			};
+			buildConfigurationList = F446788E1DB702D700F1EF3E /* Build configuration list for PBXProject "TYWeichat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F446788A1DB702D700F1EF3E;
+			productRefGroup = F44678941DB702D700F1EF3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44678921DB702D700F1EF3E /* TYWeichat */,
+				F44678AB1DB702D700F1EF3E /* TYWeichatTests */,
+				F44678B61DB702D700F1EF3E /* TYWeichatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44678911DB702D700F1EF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44678A61DB702D700F1EF3E /* LaunchScreen.storyboard in Resources */,
+				F446793D1DB703A900F1EF3E /* TYEyeView.xib in Resources */,
+				F44678A31DB702D700F1EF3E /* Assets.xcassets in Resources */,
+				F44678A11DB702D700F1EF3E /* Main.storyboard in Resources */,
+				F446795D1DB70F2900F1EF3E /* customEmoji.plist in Resources */,
+				F44679361DB703A900F1EF3E /* TYEmotionPopView.xib in Resources */,
+				F446795E1DB70F2900F1EF3E /* defaultEmoji.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44678AA1DB702D700F1EF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44678B51DB702D700F1EF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F446788F1DB702D700F1EF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44679411DB703A900F1EF3E /* TYTextView.m in Sources */,
+				F44679371DB703A900F1EF3E /* TYEmotionToolbar.m in Sources */,
+				F44679251DB703A900F1EF3E /* TYLittleVideoViewController.m in Sources */,
+				F446793B1DB703A900F1EF3E /* TYComposeToolbar.m in Sources */,
+				F44679381DB703A900F1EF3E /* TYEmotionView.m in Sources */,
+				F44679391DB703A900F1EF3E /* TYKeyboardView.m in Sources */,
+				F446793F1DB703A900F1EF3E /* TYPlayerView.m in Sources */,
+				F44679211DB703A900F1EF3E /* ZXObject.m in Sources */,
+				F44679221DB703A900F1EF3E /* PKShortVideoRecorder.m in Sources */,
+				F44679231DB703A900F1EF3E /* PKShortVideoSession.m in Sources */,
+				F44679401DB703A900F1EF3E /* TYTakeVideoButton.m in Sources */,
+				F446789E1DB702D700F1EF3E /* ViewController.m in Sources */,
+				F446794A1DB7074A00F1EF3E /* UIImage+Extension.m in Sources */,
+				F44679461DB7066100F1EF3E /* UIView+Extension.m in Sources */,
+				F446791E1DB703A900F1EF3E /* TYPresentTransition.m in Sources */,
+				F446789B1DB702D700F1EF3E /* AppDelegate.m in Sources */,
+				F4AF3B531DE6E3B300A413A1 /* TYPlayOperation.m in Sources */,
+				F44679331DB703A900F1EF3E /* TYEmotionGridView.m in Sources */,
+				F44678981DB702D700F1EF3E /* main.m in Sources */,
+				F44679351DB703A900F1EF3E /* TYEmotionPopView.m in Sources */,
+				F44679241DB703A900F1EF3E /* TYFullScreenPlayerViewController.m in Sources */,
+				F44679201DB703A900F1EF3E /* UIAlertView+Extention.m in Sources */,
+				F44679281DB703A900F1EF3E /* TYVideoModel.m in Sources */,
+				F446793E1DB703A900F1EF3E /* TYFullScreenPlayerView.m in Sources */,
+				F44679291DB703A900F1EF3E /* TYEmotionTool.m in Sources */,
+				F44679421DB703A900F1EF3E /* TYVideoListCell.m in Sources */,
+				F446792B1DB703A900F1EF3E /* WYVideoCompressTools.m in Sources */,
+				F446791F1DB703A900F1EF3E /* TYVideoConfig.m in Sources */,
+				F446792A1DB703A900F1EF3E /* TYVideoSaveTool.m in Sources */,
+				F446793A1DB703A900F1EF3E /* TYAddNewVideoCell.m in Sources */,
+				F446793C1DB703A900F1EF3E /* TYEyeView.m in Sources */,
+				F44679341DB703A900F1EF3E /* TYEmotionListView.m in Sources */,
+				F44679271DB703A900F1EF3E /* TYVideoListViewController.m in Sources */,
+				F44679261DB703A900F1EF3E /* TYPostVideoViewController.m in Sources */,
+				F446794D1DB707B100F1EF3E /* UIColor+Extension.m in Sources */,
+				F44679501DB7099300F1EF3E /* ALActionSheetView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44678A81DB702D700F1EF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44678B11DB702D700F1EF3E /* TYWeichatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44678B31DB702D700F1EF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44678BC1DB702D700F1EF3E /* TYWeichatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F44678AE1DB702D700F1EF3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44678921DB702D700F1EF3E /* TYWeichat */;
+			targetProxy = F44678AD1DB702D700F1EF3E /* PBXContainerItemProxy */;
+		};
+		F44678B91DB702D700F1EF3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44678921DB702D700F1EF3E /* TYWeichat */;
+			targetProxy = F44678B81DB702D700F1EF3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F446789F1DB702D700F1EF3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44678A01DB702D700F1EF3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F44678A41DB702D700F1EF3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44678A51DB702D700F1EF3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44678BE1DB702D700F1EF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F44678BF1DB702D700F1EF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44678C11DB702D700F1EF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4FPKBH4664;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = TYWeichat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yshow.cn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F44678C21DB702D700F1EF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4FPKBH4664;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = TYWeichat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yshow.cn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F44678C41DB702D700F1EF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYWeichatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmei.TYWeichatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYWeichat.app/TYWeichat";
+			};
+			name = Debug;
+		};
+		F44678C51DB702D700F1EF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYWeichatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmei.TYWeichatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYWeichat.app/TYWeichat";
+			};
+			name = Release;
+		};
+		F44678C71DB702D700F1EF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYWeichatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmei.TYWeichatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYWeichat;
+			};
+			name = Debug;
+		};
+		F44678C81DB702D700F1EF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYWeichatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmei.TYWeichatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYWeichat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F446788E1DB702D700F1EF3E /* Build configuration list for PBXProject "TYWeichat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44678BE1DB702D700F1EF3E /* Debug */,
+				F44678BF1DB702D700F1EF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44678C01DB702D700F1EF3E /* Build configuration list for PBXNativeTarget "TYWeichat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44678C11DB702D700F1EF3E /* Debug */,
+				F44678C21DB702D700F1EF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44678C31DB702D700F1EF3E /* Build configuration list for PBXNativeTarget "TYWeichatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44678C41DB702D700F1EF3E /* Debug */,
+				F44678C51DB702D700F1EF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44678C61DB702D700F1EF3E /* Build configuration list for PBXNativeTarget "TYWeichatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44678C71DB702D700F1EF3E /* Debug */,
+				F44678C81DB702D700F1EF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F446788B1DB702D700F1EF3E /* Project object */;
+}
