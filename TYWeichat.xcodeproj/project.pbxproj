@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		003B374E1FAD771C0012D147 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B374D1FAD771C0012D147 /* Reveal.framework */; };
 		F44678981DB702D700F1EF3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F44678971DB702D700F1EF3E /* main.m */; };
 		F446789B1DB702D700F1EF3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F446789A1DB702D700F1EF3E /* AppDelegate.m */; };
 		F446789E1DB702D700F1EF3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F446789D1DB702D700F1EF3E /* ViewController.m */; };
@@ -73,7 +72,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003B374D1FAD771C0012D147 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		F44678931DB702D700F1EF3E /* TYWeichat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYWeichat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44678971DB702D700F1EF3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F44678991DB702D700F1EF3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -168,7 +166,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003B374E1FAD771C0012D147 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +189,6 @@
 		F446788A1DB702D700F1EF3E = {
 			isa = PBXGroup;
 			children = (
-				003B374D1FAD771C0012D147 /* Reveal.framework */,
 				F44679471DB7068500F1EF3E /* PrefixHeader.pch */,
 				F446795B1DB70F2900F1EF3E /* customEmoji.plist */,
 				F446795C1DB70F2900F1EF3E /* defaultEmoji.plist */,
@@ -728,12 +724,7 @@
 				INFOPLIST_FILE = TYWeichat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lz",
-					"-framework",
-					Reveal,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yshow.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
